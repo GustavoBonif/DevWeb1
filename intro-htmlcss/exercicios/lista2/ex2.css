@@ -1,0 +1,17 @@
+table {
+    margin: auto;
+    width: 600px;
+    border: solid 1px #000;
+}
+
+th, td {
+    margin: 0;
+}
+
+.table-header{
+    background-color: #78b200;
+}
+
+.table-content:nth-of-type(even) { 
+    background: #eee; 
+}
