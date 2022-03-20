@@ -1,11 +1,18 @@
 table {
     margin: auto;
     width: 600px;
-    border: solid 1px #000;
+}
+
+th {
+    color: #eee;
+    height: 50px;
 }
 
 th, td {
-    margin: 0;
+    /* margin: 0; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left;
 }
 
 .table-header{
@@ -14,4 +21,24 @@ th, td {
 
 .table-content:nth-of-type(even) { 
     background: #eee; 
+}
+
+td:nth-child(2) {
+    color:  #0D5188;
+}
+
+
+
+td:nth-child(1),
+td:nth-child(2),
+td:nth-child(3)
+ {
+    width: 5%;
+}
+
+td:nth-child(4),
+td:nth-child(5),
+td:nth-child(6)
+ {
+    width: 15%;
 }
