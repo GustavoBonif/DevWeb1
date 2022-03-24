@@ -1,21 +1,28 @@
 html, body {
     margin: 0;
+    height: 100%;
 }
 
 header {
-    border: 1px #40eb34 solid;
-    height: 100px;
+    /* border: 1px #40eb34 solid; */
+    height: 10%;
     justify-content: space-between;
     align-items: center;
+    background-color: #3483ebde;
+    border-radius: 0px 0px 5px 5px;
 }
 
 img {
-    height: 100px;
+    height: 70px;
     width: 250px;
 }
 
 .flex {
     display: flex;
+}
+
+.main-area {
+    height: 80%;
 }
 
 .main-menu {
@@ -37,7 +44,7 @@ img {
 aside { 
     border: 1px #e61111 solid;
     width: 20%;
-    flex: 0.5;
+    flex: 0.3;
     justify-content: right;
     display: flex;
 }
@@ -47,24 +54,37 @@ aside {
     width: 40%;
     font-size: 1.4em;
     justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    height: 70%;
 }
 
 .list li {
-    padding: 10px;
+    /* padding: 10px; */
 }
 
-section {
-    border: 1px #3483eb solid;
-    flex: 2;
-}
-
-.main-content {
+.content {
+    /* border: 1px #3483eb solid; */
     display: flex;
     flex-wrap: wrap;
+    flex: 2;
+    align-content: flex-start;
+    /* background-color: rgb(52, 131, 235, 0.15); */
 }
 
-/*  */
+.content-item {
+    height: 200px;
+    margin: 1%;
+    min-width: 20%;
+    border: 1px #2fa394 solid;
+    flex: auto;
+    border-radius: 8px;
+}
+
 footer {
-    border: 1px #c034eb solid;
-    height: 50px;
+    /* border: 1px #c034eb solid; */
+    height: 10%;
+    margin: 0;
+    background-color: #3483eb;
+    border-radius: 0px 100px 0px 0px;
 }
