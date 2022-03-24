@@ -19,7 +19,7 @@ th, td {
     background-color: #78b200;
 }
 
-.table-content:nth-of-type(even) { 
+.table-content:nth-of-type(odd) { 
     background: #eee; 
 }
 
