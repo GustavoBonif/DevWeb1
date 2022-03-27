@@ -4,7 +4,6 @@ html, body {
 }
 
 header {
-    /* border: 1px #40eb34 solid; */
     height: 10%;
     justify-content: space-between;
     align-items: center;
@@ -42,11 +41,11 @@ img {
 }
 
 aside { 
-    border: 1px #e61111 solid;
     width: 20%;
     flex: 0.3;
     justify-content: right;
     display: flex;
+    background-color: #fff2b3;
 }
 
 .list {
@@ -59,32 +58,36 @@ aside {
     height: 70%;
 }
 
-.list li {
-    /* padding: 10px; */
-}
-
 .content {
-    /* border: 1px #3483eb solid; */
     display: flex;
     flex-wrap: wrap;
     flex: 2;
     align-content: flex-start;
-    /* background-color: rgb(52, 131, 235, 0.15); */
 }
 
 .content-item {
     height: 200px;
     margin: 1%;
     min-width: 20%;
-    border: 1px #2fa394 solid;
     flex: auto;
     border-radius: 8px;
+    background-color: #022b3a9a;
+    text-align: center;
+}
+
+.content-item:hover {
+    box-shadow: 0 0 1em #3483EB;
 }
 
 footer {
-    /* border: 1px #c034eb solid; */
     height: 10%;
     margin: 0;
-    background-color: #3483eb;
+    background-color: #3483EB;
     border-radius: 0px 100px 0px 0px;
+    text-align: center;
+}
+
+.footer-text {
+    margin: 0;
+    padding: 0.5%;
 }
