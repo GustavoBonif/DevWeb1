@@ -1,0 +1,11 @@
+npm i babel-jest @babelpreset-env
+
+// ao excluir o conteúdo (node_modules), para
+// reutilizar, será necessário um 
+npm install
+
+// para rodar o projeto
+npm run test
+
+
+// npm i http-server
