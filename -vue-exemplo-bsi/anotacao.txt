@@ -1,0 +1,30 @@
+Extensões
+
+Prettier
+EsLint
+Volar 
+
+Comandos
+
+// para criar o projeto
+npm init vue@latest
+
+// para startar/rodar o projeto
+npm run dev
+
+// Anotações
+v-if -> o elemento fica omitido, indicando apenas que existe um v-if
+
+v-show -> o elemento já fica montado na tela, porém com display none
+
+export default {
+  data() {
+      // define atributos (variáveis)
+  }
+  method() {
+      // funções
+  }
+  computed() {
+      // watcher/observer que é chamada para atuar no elemento (v-show="computed") mas não precisa de trigger
+  }
+}
