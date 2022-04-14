@@ -1,16 +1,45 @@
-Extensões
-
+// Extensões
 Prettier
 EsLint
 Volar 
 
-Comandos
+Format on Save: true
+Formatter: EsLint
+
+// no arquivo src/index.html, não mexer em anda
+
+//no arquivo src/App.vue
+deixar com
+<script></script>
+<template>
+    <h1>Olá Mundo</h1>
+</template>
+<style></style>
+
+/////////////// Comandos /////////////
 
 // para criar o projeto
 npm init vue@latest
 
-// para startar/rodar o projeto
+// cria na pasta no diretório selecionado, não criando uma pasta pro projeto
+npm init vue@latest . 
+
+// para baixar dependencias
+npm install
+
+// para startar/rodar o projeto (abrindo na porta 3000 -> localhost:3000)
 npm run dev
+
+// em rotas, o @ significa a pasta src -> definido em vite.config.js
+
+// o css externo é definido em "src/assets"
+// no main, dar import no css
+import "@/assetes/style.css";
+
+
+
+
+/////// vueJS /////////////
 
 // Anotações
 v-if -> o elemento fica omitido, indicando apenas que existe um v-if
