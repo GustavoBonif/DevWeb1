@@ -2,7 +2,6 @@
 <template>
   <header>
     <div class="header-title-area">
-      <!-- <img src="../assets/images/icon.png" alt="#"> -->
       <h1>Título</h1>
     </div>
 
@@ -28,5 +27,4 @@
   </main>
 </template>
 <style>
-/* css em "assets/style.css" */
 </style>
