@@ -40,6 +40,7 @@ function bhaskara(a, b, c) {
         resposta.success = false;
         resposta.warning = "A equação não possui resultados reais";
     } else {   
+        resposta.success = true;
         resposta.x1 = (-b + Math.sqrt(delta)) / (2 * a);
         resposta.x2 = (-b - Math.sqrt(delta)) / (2 * a);
     } 

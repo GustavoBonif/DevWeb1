@@ -1,7 +1,11 @@
  import { bhaskara } from '../js/calculadora.js';
 
 function calculateBhaskara(params) {
-    return bhaskara(params.a, params.b, params.c);
+    // return bhaskara(params.a, params.b, params.c);
+
+    let teste = bhaskara(params.a, params.b, params.c);
+    console.info(teste);
+    return teste;
 }
 
 function presentResult() {
@@ -22,6 +26,9 @@ function presentResult() {
             resultArea.innerHTML = output.warning; 
         }
     } else {
+
+        console.info(output);   
+
         resultArea.innerHTML = "x¹ = " + output.x1 + " e x² = " + output.x2;     
     }
 }

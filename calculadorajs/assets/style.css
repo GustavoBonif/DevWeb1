@@ -2,15 +2,77 @@ html,
 body {
     margin: 0;
     padding: 0;
-    
 }
 
 body {
-    background-color: lightblue;
+    background-color: #add8e6;
+    justify-content: center;
+    align-items: center;
 }
 
-
-header {
-    margin-bottom: 1px solid;
-    background-color: #959595;
+.card-calculadora {
+    border: 2px solid #2D3142;
+    float: left;
+    margin-left: 35%;
+    margin-top: 10%;
+    width: 30%;
 }
+
+.card-header {
+    background-color: #F4EF88;
+    height: 100%;
+    border-bottom: 1px solid #2D3142;
+}
+
+.header-title {
+    margin: 0;
+}
+
+.card-body {
+    padding: 2%;
+    background-color: #fff;
+}
+
+.card-form {
+}
+
+#form-calculate {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    width: 100%;
+}
+
+.form-field-area {
+    /* width: 90%; */
+}
+
+.form-field{
+    width: 98%;
+    border-bottom: 2px solid #000;
+}
+
+#submit-button {
+    background-color: #F4EF88;
+    border: 2px solid #2D3142;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/*
+
+Paleta de cores
+
+#ADD8E6 - fundo
+#959595 - ?
+#F8FA90 - ?
+#F4EF88 - botão
+#2D3142 - borda
+
+*/
