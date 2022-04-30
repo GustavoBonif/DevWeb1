@@ -8,6 +8,7 @@ body {
     background-color: #add8e6;
     justify-content: center;
     align-items: center;
+    font-family: monospace;
 }
 
 .card-calculadora {
@@ -22,6 +23,7 @@ body {
     background-color: #F4EF88;
     height: 100%;
     border-bottom: 1px solid #2D3142;
+    padding: 2%;
 }
 
 .header-title {
@@ -63,6 +65,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    cursor: pointer;
 }
 
 /*

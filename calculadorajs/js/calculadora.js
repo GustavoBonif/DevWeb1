@@ -21,21 +21,9 @@ function bhaskara(a, b, c) {
     let resposta = {};
     let delta = (b * b) - (4 * a * c);
 
-    /*
-        resposta = {
-            msg = ""
-            result = {
-                x
-                x¹
-                x²
-            }
-        }
-    */
-
     if (delta == 0) {
         resposta.success = false;
         resposta.x = (-b + Math.sqrt(delta)) / (2 * a);
-        // resposta.warning = "A equação não possui resultados reais";
     } else if (delta < 0) {
         resposta.success = false;
         resposta.warning = "A equação não possui resultados reais";
